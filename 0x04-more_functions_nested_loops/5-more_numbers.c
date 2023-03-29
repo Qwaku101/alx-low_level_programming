@@ -1,17 +1,16 @@
 #include "main.h"
 
 /**
- * more_numbers - print more_numbers
+ * more_numbers - nmbr fct
  *
- * Return: void
- *
+ * Return: no return
  */
 
 void more_numbers(void)
 {
-	int c, j;
 
-	for (c = 1; c <= 10; c++)
+int i, j;
+	for (i = 1; i <= 10; i++)
 	{
 		for (j = 0; j <= 14; j++)
 		{
@@ -21,5 +20,4 @@ void more_numbers(void)
 		}
 			_putchar('\n');
 		}
-
 }
